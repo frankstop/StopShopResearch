@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from collections import Counter, defaultdict
+import json
 from math import log
 from pathlib import Path
 from statistics import mean, median, pstdev
@@ -198,12 +199,18 @@ def build_summary(snapshot_dir: Path) -> dict[str, Any]:
     latest_catalog = catalog_history[-1]
     brand_counts = Counter(row.get("brand") for row in latest_catalog.values() if row.get("brand"))
     category_counts = Counter(category for row in latest_catalog.values() for category in row.get("categories", []) if category)
+    manifest_history = []
+    for manifest_path in sorted(snapshot_dir.glob("????-??-??.manifest.json")):
+        manifest_history.append(json.loads(manifest_path.read_text(encoding="utf-8")))
+    latest_manifest = manifest_history[-1] if manifest_history else None
 
     return {
         "schema_version": "1.0",
         "status": "baseline_established" if len(catalog_files) == 1 else "weekly_comparison_available",
         "generated_from": [path.name for path in catalog_files[-2:]],
         "latest": history[-1],
+        "latest_manifest": latest_manifest,
+        "manifest_history": manifest_history,
         "previous": history[-2] if len(history) >= 2 else None,
         "comparison": comparisons[-1] if comparisons else None,
         "history": history,

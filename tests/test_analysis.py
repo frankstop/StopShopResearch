@@ -36,6 +36,7 @@ class AnalysisTests(unittest.TestCase):
             baseline = build_summary(snapshots)
             self.assertEqual(baseline["status"], "baseline_established")
             self.assertIsNone(baseline["comparison"])
+            self.assertIsNone(baseline["latest_manifest"])
             write_jsonl_gz_atomic(snapshots / "2026-07-12.catalog.jsonl.gz", [product("a", 2.5), product("c", 4)])
             weekly = build_summary(snapshots)
             self.assertEqual(weekly["status"], "weekly_comparison_available")

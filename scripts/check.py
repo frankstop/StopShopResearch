@@ -24,6 +24,10 @@ def main() -> None:
     latest_rows = read_jsonl_gz(latest_path)
     if summary["latest"]["products"] != len(latest_rows):
         raise SystemExit("Published product count does not match the latest snapshot")
+    manifests = sorted((root / "data" / "snapshots").glob("????-??-??.manifest.json"))
+    latest_manifest = json.loads(manifests[-1].read_text())
+    if summary.get("latest_manifest", {}).get("sitemap_coverage_percentage") != latest_manifest["sitemap_coverage_percentage"]:
+        raise SystemExit("Published coverage does not match the latest snapshot manifest")
     if "public online catalog" not in report_path.read_text().lower():
         raise SystemExit("Published report is missing the price-scope limitation")
     print(f"Verified {len(latest_rows):,} latest products and all public outputs")

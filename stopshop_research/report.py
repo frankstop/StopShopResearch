@@ -78,6 +78,7 @@ def _bars(rows: list[dict[str, Any]]) -> str:
 
 def render_weekly_report(summary: dict[str, Any]) -> str:
     latest = summary["latest"]
+    manifest = summary.get("latest_manifest") or {}
     comparison = summary.get("comparison")
     baseline = comparison is None
     status_text = "Baseline established" if baseline else "Weekly comparison available"
@@ -87,7 +88,7 @@ def render_weekly_report(summary: dict[str, Any]) -> str:
         + _metric("New products", f'{comparison["new_products"]:,}')
         + _metric("Anomalies", f'{comparison["anomalies"]:,}')
         if comparison else
-        _metric("Status", "Baseline") + _metric("Products", f'{latest["products"]:,}') + _metric("Categories", f'{latest["categories"]:,}') + _metric("Brands", f'{latest["brands"]:,}')
+        _metric("Status", "Baseline") + _metric("Products", f'{latest["products"]:,}') + _metric("Sitemap coverage", f'{float(manifest.get("sitemap_coverage_percentage",0)):.1f}%') + _metric("Valid prices", f'{float(manifest.get("valid_price_percentage",0)):.1f}%')
     )
     promotion = summary.get("promotion_history", [])
     latest_promo = promotion[-1] if promotion else {"promotions": 0, "median_discount_percentage": 0}
@@ -100,6 +101,7 @@ def render_weekly_report(summary: dict[str, Any]) -> str:
 <body><a class="skip" href="#main">Skip to analysis</a><nav class="shell nav" aria-label="Primary"><a href="index.html">Overview</a><a href="weekly-report.html" aria-current="page">Weekly analysis</a><a href="data/weekly-summary.json">Data contract</a><a href="https://github.com/frankstop/StopShopResearch">Source</a></nav>
 <header class="shell hero"><div class="eyebrow">Public catalog monitor · {escape(latest["snapshot_date"])}</div><h1>What changed this week?</h1><p>Price movements, assortment churn, promotions, volatility, and robust anomaly flags from Stop & Shop’s anonymous public online catalog.</p><div class="notice"><strong>Scope:</strong> These are public online catalog observations. Baldwin store #2577 is the local market reference, but values are not asserted as Baldwin shelf prices.</div></header>
 <main id="main" class="shell"><span class="tag">{escape(status_text)}</span><section class="metrics" aria-label="Latest metrics">{comparison_metrics}</section>
+<section class="panel wide"><h2>Collection health</h2><p>{int(manifest.get("category_sitemap_urls",0)):,} category pages discovered · {int(manifest.get("requests",0)):,} requests · {float(manifest.get("elapsed_seconds",0))/60:.1f} minutes · {len(manifest.get("errors",[]))} recorded non-fatal source issue(s).</p></section>
 <div class="grid"><section class="panel wide"><h2>Catalog size over time</h2><p>Successful snapshots only. Missing observations are not interpolated.</p>{_line_chart(summary["history"],"products","Unique catalog products over time")}</section>
 <section class="panel"><h2>Largest increases</h2><p>Highest percentage changes among matched products.</p>{_movement_table(summary.get("largest_increases",[])[:10])}</section>
 <section class="panel"><h2>Largest decreases</h2><p>Lowest percentage changes among matched products.</p>{_movement_table(summary.get("largest_decreases",[])[:10])}</section>
@@ -113,12 +115,13 @@ def render_weekly_report(summary: dict[str, Any]) -> str:
 
 def render_index(summary: dict[str, Any]) -> str:
     latest = summary["latest"]
+    manifest = summary.get("latest_manifest") or {}
     baseline = summary.get("comparison") is None
     state = "Baseline established" if baseline else "Current weekly comparison"
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Longitudinal public Stop & Shop catalog price research."><title>Stop & Shop Research</title><style>{CSS}</style></head>
 <body><a class="skip" href="#main">Skip to content</a><nav class="shell nav" aria-label="Primary"><a href="index.html" aria-current="page">Overview</a><a href="weekly-report.html">Weekly analysis</a><a href="data/weekly-summary.json">Data contract</a><a href="https://github.com/frankstop/StopShopResearch">Source</a></nav>
 <header class="shell hero"><div class="eyebrow">Automated grocery price research</div><h1>Stop & Shop, observed over time.</h1><p>A transparent weekly pipeline that turns anonymous public catalog pages into durable price history, assortment signals, promotion tracking, and anomaly review.</p><div class="notice"><strong>Local context:</strong> Baldwin store #2577 at 905 Atlantic Avenue establishes the project’s market relevance. The collected values are public online prices and may differ from that store’s shelves.</div></header>
-<main id="main" class="shell"><span class="tag">{escape(state)}</span><section class="metrics">{_metric("Products",f'{latest["products"]:,}')}{_metric("Categories",f'{latest["categories"]:,}')}{_metric("Brands",f'{latest["brands"]:,}')}{_metric("Median price",_money(latest["median_price"]))}</section>
+<main id="main" class="shell"><span class="tag">{escape(state)}</span><section class="metrics">{_metric("Products",f'{latest["products"]:,}')}{_metric("Sitemap coverage",f'{float(manifest.get("sitemap_coverage_percentage",0)):.1f}%')}{_metric("Categories",f'{latest["categories"]:,}')}{_metric("Median price",_money(latest["median_price"]))}</section>
 <div class="grid"><section class="panel"><h2>Raw observations</h2><p>Immutable, compressed JSONL snapshots preserve product identity, catalog attributes, price, availability, source, and observation time.</p></section><section class="panel"><h2>Derived intelligence</h2><p>Adjacent snapshots produce movements, churn, trends, volatility, promotions, and conservative robust outlier flags.</p></section><section class="panel"><h2>Safety before publication</h2><p>Robots rules, minimum coverage, valid-price, overlap, and product-count gates prevent partial crawls from replacing a healthy baseline.</p></section><section class="panel"><h2>Open methodology</h2><p>The repository includes its schema, limitations, tests, workflow, and machine-readable weekly summary. No account credentials or private APIs are used.</p></section></div>
 <p><a href="weekly-report.html">Open the latest weekly price intelligence →</a></p></main><footer class="shell">Independent educational research. Not affiliated with or endorsed by Stop & Shop.</footer></body></html>"""
 
