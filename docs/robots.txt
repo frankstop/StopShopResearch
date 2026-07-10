@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://frankstop.github.io/StopShopResearch/sitemap.xml

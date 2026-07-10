@@ -1,0 +1,179 @@
+{
+  "anomalies": [],
+  "brand_trends": [],
+  "category_trends": [],
+  "comparison": null,
+  "comparisons": [],
+  "generated_from": [
+    "2026-07-09.catalog.jsonl.gz"
+  ],
+  "history": [
+    {
+      "available_products": 35157,
+      "average_price": 6.93,
+      "brands": 2992,
+      "categories": 2497,
+      "median_price": 5.29,
+      "products": 42255,
+      "snapshot_date": "2026-07-09"
+    }
+  ],
+  "largest_decreases": [],
+  "largest_increases": [],
+  "latest": {
+    "available_products": 35157,
+    "average_price": 6.93,
+    "brands": 2992,
+    "categories": 2497,
+    "median_price": 5.29,
+    "products": 42255,
+    "snapshot_date": "2026-07-09"
+  },
+  "latest_promotions": [],
+  "methodology": {
+    "anomaly_rule": "Absolute change >= 20% and robust MAD z-score >= 3.5",
+    "identity": "Canonical public grocery URL; not a UPC",
+    "missing_values": "Preserved; never interpolated",
+    "price_scope": "Public online catalog, not asserted as Baldwin shelf pricing"
+  },
+  "previous": null,
+  "promotion_entries": [],
+  "promotion_exits": [],
+  "promotion_history": [
+    {
+      "average_discount_percentage": 0.0,
+      "median_discount_percentage": 0.0,
+      "promotions": 0,
+      "promotions_with_regular_price": 0,
+      "snapshot_date": "2026-07-09"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "baseline_established",
+  "top_brands": [
+    {
+      "name": "Ahold",
+      "products": 3598
+    },
+    {
+      "name": "Nature's Promise",
+      "products": 918
+    },
+    {
+      "name": "CareOne",
+      "products": 672
+    },
+    {
+      "name": "Smart Living",
+      "products": 482
+    },
+    {
+      "name": "McCormick",
+      "products": 435
+    },
+    {
+      "name": "Boar's Head",
+      "products": 397
+    },
+    {
+      "name": "Taste Of Inspirations",
+      "products": 278
+    },
+    {
+      "name": "Goya",
+      "products": 270
+    },
+    {
+      "name": "Gerber",
+      "products": 238
+    },
+    {
+      "name": "Nature Made",
+      "products": 232
+    },
+    {
+      "name": "Handi-Foil",
+      "products": 204
+    },
+    {
+      "name": "Hostess",
+      "products": 198
+    },
+    {
+      "name": "Dole",
+      "products": 197
+    },
+    {
+      "name": "Jimmy Dean",
+      "products": 190
+    },
+    {
+      "name": "Badia",
+      "products": 188
+    }
+  ],
+  "top_categories": [
+    {
+      "name": "Packaged Donuts Breakfast Pastries",
+      "products": 200
+    },
+    {
+      "name": "Packaged Snack Cakes",
+      "products": 150
+    },
+    {
+      "name": "Childrens Cough Cold Flu Medicine",
+      "products": 100
+    },
+    {
+      "name": "Snack Cakes Sweet Treats",
+      "products": 100
+    },
+    {
+      "name": "Frozen Breakfast",
+      "products": 100
+    },
+    {
+      "name": "Breakfast Meals Sandwiches",
+      "products": 100
+    },
+    {
+      "name": "Frozen Waffles",
+      "products": 100
+    },
+    {
+      "name": "Hummus",
+      "products": 100
+    },
+    {
+      "name": "Multi Serve Hummus",
+      "products": 100
+    },
+    {
+      "name": "Fresh Flowers Bouquets",
+      "products": 100
+    },
+    {
+      "name": "Probiotics Digestive Health",
+      "products": 100
+    },
+    {
+      "name": "Decorative Scented Candles",
+      "products": 98
+    },
+    {
+      "name": "Frozen Chicken Nuggets Strips Tenders",
+      "products": 94
+    },
+    {
+      "name": "Frozen Breakfast Sandwiches",
+      "products": 92
+    },
+    {
+      "name": "Disposable Foil Pans",
+      "products": 92
+    }
+  ],
+  "volatility_4_week": [],
+  "volatility_8_week": []
+}
