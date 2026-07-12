@@ -7,6 +7,7 @@ from pathlib import Path
 import time
 
 from .analysis import build_summary
+from .catalog_history import build_catalog_history
 from .models import SnapshotManifest
 from .report import write_reports
 from .sources import PoliteClient, collect_catalog, collect_promotions, discover_sources, verify_robots
@@ -94,6 +95,7 @@ def run_pipeline(
         write_json_atomic(manifest_path, manifest.to_dict())
         summary = build_summary(snapshot_dir)
         write_reports(summary, root / "docs")
+        build_catalog_history(snapshot_dir, root / "docs" / "data" / "catalog-history")
     except BaseException:
         for path in new_paths:
             path.unlink(missing_ok=True)
@@ -115,6 +117,10 @@ def main() -> None:
     logging.basicConfig(level=logging.INFO if args.verbose else logging.WARNING, format="%(levelname)s: %(message)s")
     if args.command == "report":
         write_reports(build_summary(args.root / "data" / "snapshots"), args.root / "docs")
+        build_catalog_history(
+            args.root / "data" / "snapshots",
+            args.root / "docs" / "data" / "catalog-history",
+        )
         return
     manifest = run_pipeline(
         args.root,

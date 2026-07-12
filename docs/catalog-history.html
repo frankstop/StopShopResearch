@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Search every Stop & Shop product observed by this research project and inspect its complete public online price history.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://frankiejvaldez.com/projects/stopshopresearch/catalog-history/">
+  <title>All Item Price History | Stop & Shop Research</title>
+  <link rel="stylesheet" href="assets/catalog-history.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RSVR6Y389R"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}window.gtag=gtag;gtag("js",new Date);gtag("config","G-RSVR6Y389R")</script>
+  <script defer src="assets/catalog-history.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to catalog</a>
+  <nav class="shell nav" aria-label="Primary"><a href="index.html">Overview</a><a href="weekly-report.html">Weekly analysis</a><a href="catalog-history.html" aria-current="page">All items</a><a href="data/weekly-summary.json">Data contract</a><a href="https://github.com/frankstop/StopShopResearch">Source</a></nav>
+  <header class="shell hero"><h1>Every observed item, over time.</h1><p>Search the complete union of Stop & Shop products collected by this project. Open any item to inspect every recorded public online price and availability observation.</p><div class="freshness" id="freshness">Loading observation range…</div></header>
+  <main class="shell" id="main">
+    <section class="metrics" aria-label="Catalog history summary"><div class="metric"><span>Items ever observed</span><strong id="metric-all">—</strong></div><div class="metric"><span>Current items</span><strong id="metric-current">—</strong></div><div class="metric"><span>Missing items</span><strong id="metric-missing">—</strong></div><div class="metric"><span>Snapshots</span><strong id="metric-snapshots">—</strong></div></section>
+    <div id="loading" class="loading" role="status">Loading the complete catalog index…</div>
+    <section class="workspace" id="catalog-workspace" hidden aria-label="All item price history explorer">
+      <div class="controls">
+        <div class="field search"><label for="query">Search item, brand, or product URL</label><input id="query" type="search" autocomplete="off" placeholder="Try milk, Amstel, or a product URL"></div>
+        <div class="field"><label for="category">Category</label><select id="category"><option value="">All categories</option></select></div>
+        <div class="field"><label for="status">Status</label><select id="status"><option value="">All statuses</option><option value="current">Current</option><option value="new">New</option><option value="returned">Returned</option><option value="missing">Missing</option></select></div>
+        <div class="field"><label for="sort">Sort</label><select id="sort"><option value="name">Name</option><option value="price_asc">Current price: low to high</option><option value="price_desc">Current price: high to low</option><option value="change_up">Largest increase</option><option value="change_down">Largest decrease</option><option value="first_seen">Newest first seen</option><option value="last_seen">Most recently observed</option></select></div>
+        <button class="button" id="reset-filters" type="button">Reset</button>
+      </div>
+      <div class="results-bar"><p><strong id="result-count">0 items</strong> match the current view.</p><button class="button" id="export-csv" type="button">Export filtered CSV</button></div>
+      <div class="table-wrap"><table class="catalog"><thead><tr><th>Item</th><th>Current</th><th>Change</th><th>Historical range</th><th>Status</th><th>Observed</th><th>Price history</th><th></th></tr></thead><tbody id="catalog-body"></tbody></table></div>
+      <div class="empty" id="empty-results" hidden>No items match these filters. Reset the filters or broaden the search.</div>
+      <div class="pagination"><span id="page-status">No items</span><div class="pagination-buttons"><button id="previous-page" type="button">Previous</button><button id="next-page" type="button">Next</button></div></div>
+    </section>
+  </main>
+  <dialog id="item-dialog" aria-labelledby="detail-title"><div id="item-detail"></div><button class="icon-button" id="close-dialog" type="button" aria-label="Close item history">Close</button></dialog>
+  <footer class="shell">Missing observations remain gaps and are never treated as zero-dollar prices. Independent educational research; not affiliated with or endorsed by Stop & Shop.</footer>
+</body>
+</html>

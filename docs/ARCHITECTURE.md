@@ -28,11 +28,15 @@ Promotion collection is best effort and cannot invalidate an otherwise healthy c
 
 The stable derived contract is `docs/data/weekly-summary.json`. HTML is a rendering of that same object; it does not recompute metrics independently.
 
+`stopshop_research.catalog_history` separately builds the union of every canonical product key across successful snapshots. It writes a compact searchable index plus 64 deterministic history shards. Missing weeks remain absent observations and are rendered as gaps rather than zero prices.
+
 ## Published surfaces
 
 - `docs/index.html`: scope, latest health, and pipeline explanation
 - `docs/weekly-report.html`: current comparison and historical analysis
+- `docs/catalog-history.html`: searchable all-item explorer with item-level price histories
 - `docs/data/weekly-summary.json`: machine-readable contract
+- `docs/data/catalog-history/`: manifest, compact union index, and on-demand history shards
 - `docs/METHODOLOGY.html`: human-readable methods and limitations
 
 GitHub Pages serves `main/docs`. The scheduled workflow commits raw and derived outputs together only after the test suite passes.

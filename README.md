@@ -4,7 +4,7 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-08783f.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-08783f.svg)](LICENSE)
 
-Automated longitudinal research on Stop & Shop's anonymous public online catalog. Every Sunday, the project discovers the current grocery sitemap, collects structured product observations from allowed category pages, validates the result, compares it with prior successful weeks, and publishes [price intelligence](https://frankstop.github.io/StopShopResearch/weekly-report.html).
+Automated longitudinal research on Stop & Shop's anonymous public online catalog. Every Sunday, the project discovers the current grocery sitemap, collects structured product observations from allowed category pages, validates the result, compares it with prior successful weeks, and publishes [price intelligence](https://frankstop.github.io/StopShopResearch/weekly-report.html) plus a searchable [all-item price history](https://frankiejvaldez.com/projects/stopshopresearch/catalog-history/).
 
 The Baldwin Stop & Shop at **905 Atlantic Avenue, store #2577** establishes the local market context. Collected prices come from Stop & Shop's public online catalog and are **not asserted to be Baldwin shelf prices**.
 
@@ -16,6 +16,7 @@ The Baldwin Stop & Shop at **905 Atlantic Avenue, store #2577** establishes the 
 - Category and brand trends, advertised promotion summaries, and four/eight-week volatility
 - Conservative anomaly flags requiring both a 20% price move and a robust MAD z-score of 3.5
 - A static [project overview](https://frankstop.github.io/StopShopResearch/) and [weekly report](https://frankstop.github.io/StopShopResearch/weekly-report.html)
+- A searchable union catalog where every observed item retains its complete non-interpolated history
 - A stable [machine-readable weekly summary](https://frankstop.github.io/StopShopResearch/data/weekly-summary.json)
 
 No account, loyalty card, private API, CAPTCHA workaround, or authenticated state is used.

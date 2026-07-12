@@ -29,3 +29,7 @@ The manifest records snapshot health, raw counts, sitemap counts, measured cover
 ## WeeklySummary
 
 The published JSON includes latest and previous snapshot statistics, every adjacent comparison, latest movers and anomalies, category/brand summaries, promotion history, promotion transitions, four/eight-week volatility, and the methodology labels needed to interpret the result.
+
+## CatalogHistory
+
+`docs/data/catalog-history/manifest.json` records every successful snapshot date, union/current/missing item counts, identity semantics, category counts, and the shard inventory. `catalog-index.json` is a compact field-mapped array used for search, filters, status, ranges, and row sparklines. `items/*.json` partitions complete observations by a deterministic hash of `product_key`; each observation preserves date, price, availability, and categories. An item missing from a weekly snapshot has no fabricated observation.
