@@ -1,197 +1,444 @@
 {
   "anomalies": [
     {
-      "brand": "McCormick",
+      "brand": "Buitoni",
       "categories": [
-        "Finishing Sugar"
+        "Fresh Fettuccine Pasta"
       ],
-      "change": 3.74,
-      "change_percentage": 299.2,
-      "current_price": 4.99,
-      "name": "McCormick Flavor of the Year Sweet & Smoky Black Currant Seasoning",
-      "previous_price": 1.25,
-      "product_key": "https://stopandshop.com/groceries/baking-cooking/sugars-sweeteners/finishing-sugar/mccormick-flavor-of-the-year-sweet-smoky-black-currant-seasoning-3-oz-jar.html",
-      "robust_z_score": 8.72
+      "change": 1.99,
+      "change_percentage": 199.0,
+      "current_price": 2.99,
+      "name": "Buitoni Fettuccine Pasta Fresh",
+      "previous_price": 1.0,
+      "product_key": "https://stopandshop.com/groceries/deli-prepared-food/fresh-pasta-sauce-pierogies/fresh-refrigerated-pasta/fresh-fettuccine-pasta/buitoni-fettuccine-pasta-fresh-9-oz-pkg.html",
+      "robust_z_score": 6.83
     },
     {
-      "brand": "McCormick",
+      "brand": "Buitoni",
       "categories": [
-        "Finishing Sugar"
+        "Fresh Pasta Sauce Pierogies"
       ],
-      "change": 3.74,
-      "change_percentage": 299.2,
-      "current_price": 4.99,
-      "name": "McCormick Flavor of the Year Black Currant Finishing Sugar",
-      "previous_price": 1.25,
-      "product_key": "https://stopandshop.com/groceries/baking-cooking/sugars-sweeteners/finishing-sugar/mccormick-flavor-of-the-year-black-currant-finishing-sugar-275-oz-jar.html",
-      "robust_z_score": 8.72
+      "change": 1.99,
+      "change_percentage": 199.0,
+      "current_price": 2.99,
+      "name": "Buitoni Linguine Pasta Fresh",
+      "previous_price": 1.0,
+      "product_key": "https://stopandshop.com/groceries/deli-prepared-food/fresh-pasta-sauce-pierogies/buitoni-linguine-pasta-fresh-9-oz-pkg.html",
+      "robust_z_score": 6.83
     },
     {
-      "brand": "Fiber One",
+      "brand": "Buitoni",
       "categories": [
-        "Breakfast Cereal Granola Bars"
+        "Fresh Refrigerated Pasta"
       ],
-      "change": 3.0,
-      "change_percentage": 150.75,
-      "current_price": 4.99,
-      "name": "Fiber One Chewy Bars Oats & Chocolate - 5 ct",
-      "previous_price": 1.99,
-      "product_key": "https://stopandshop.com/groceries/breakfast/breakfast-cereal-granola-bars/fiber-one-chewy-bars-oats-chocolate-5-ct-7-oz-box.html",
-      "robust_z_score": 4.26
+      "change": 1.99,
+      "change_percentage": 199.0,
+      "current_price": 2.99,
+      "name": "Buitoni Fettuccine Pasta Fresh",
+      "previous_price": 1.0,
+      "product_key": "https://stopandshop.com/groceries/deli-prepared-food/fresh-pasta-sauce-pierogies/fresh-refrigerated-pasta/buitoni-fettuccine-pasta-fresh-9-oz-pkg.html",
+      "robust_z_score": 6.83
     },
     {
-      "brand": "Fiber One",
+      "brand": "Buitoni",
       "categories": [
-        "Granola Snack Bars"
+        "Fresh Refrigerated Pasta"
       ],
-      "change": 3.0,
-      "change_percentage": 150.75,
-      "current_price": 4.99,
-      "name": "Fiber One Chewy Bars Oats & Chocolate - 5 ct",
-      "previous_price": 1.99,
-      "product_key": "https://stopandshop.com/groceries/snacks/granola-snack-bars/fiber-one-chewy-bars-oats-chocolate-5-ct-7-oz-box.html",
-      "robust_z_score": 4.26
+      "change": 1.99,
+      "change_percentage": 199.0,
+      "current_price": 2.99,
+      "name": "Buitoni Linguine Pasta Fresh",
+      "previous_price": 1.0,
+      "product_key": "https://stopandshop.com/groceries/deli-prepared-food/fresh-pasta-sauce-pierogies/fresh-refrigerated-pasta/buitoni-linguine-pasta-fresh-9-oz-pkg.html",
+      "robust_z_score": 6.83
+    },
+    {
+      "brand": "Buitoni",
+      "categories": [
+        "More Fresh Pasta"
+      ],
+      "change": 1.99,
+      "change_percentage": 199.0,
+      "current_price": 2.99,
+      "name": "Buitoni Spaghetti Pasta Fresh",
+      "previous_price": 1.0,
+      "product_key": "https://stopandshop.com/groceries/deli-prepared-food/fresh-pasta-sauce-pierogies/fresh-refrigerated-pasta/more-fresh-pasta/buitoni-spaghetti-pasta-fresh-9-oz-pkg.html",
+      "robust_z_score": 6.83
+    },
+    {
+      "brand": "Buitoni",
+      "categories": [
+        "Fresh Refrigerated Pasta"
+      ],
+      "change": 1.99,
+      "change_percentage": 199.0,
+      "current_price": 2.99,
+      "name": "Buitoni Spaghetti Pasta Fresh",
+      "previous_price": 1.0,
+      "product_key": "https://stopandshop.com/groceries/deli-prepared-food/fresh-pasta-sauce-pierogies/fresh-refrigerated-pasta/buitoni-spaghetti-pasta-fresh-9-oz-pkg.html",
+      "robust_z_score": 6.83
+    },
+    {
+      "brand": "Buitoni",
+      "categories": [
+        "Fresh Pasta Sauce Pierogies"
+      ],
+      "change": 1.99,
+      "change_percentage": 199.0,
+      "current_price": 2.99,
+      "name": "Buitoni Spaghetti Pasta Fresh",
+      "previous_price": 1.0,
+      "product_key": "https://stopandshop.com/groceries/deli-prepared-food/fresh-pasta-sauce-pierogies/buitoni-spaghetti-pasta-fresh-9-oz-pkg.html",
+      "robust_z_score": 6.83
+    },
+    {
+      "brand": "Buitoni",
+      "categories": [
+        "Fresh Linguine Pasta"
+      ],
+      "change": 1.99,
+      "change_percentage": 199.0,
+      "current_price": 2.99,
+      "name": "Buitoni Linguine Pasta Fresh",
+      "previous_price": 1.0,
+      "product_key": "https://stopandshop.com/groceries/deli-prepared-food/fresh-pasta-sauce-pierogies/fresh-refrigerated-pasta/fresh-linguine-pasta/buitoni-linguine-pasta-fresh-9-oz-pkg.html",
+      "robust_z_score": 6.83
+    },
+    {
+      "brand": "Buitoni",
+      "categories": [
+        "Fresh Pasta Sauce Pierogies"
+      ],
+      "change": 1.99,
+      "change_percentage": 199.0,
+      "current_price": 2.99,
+      "name": "Buitoni Fettuccine Pasta Fresh",
+      "previous_price": 1.0,
+      "product_key": "https://stopandshop.com/groceries/deli-prepared-food/fresh-pasta-sauce-pierogies/buitoni-fettuccine-pasta-fresh-9-oz-pkg.html",
+      "robust_z_score": 6.83
+    },
+    {
+      "brand": null,
+      "categories": [
+        "Green Leaf Lettuce"
+      ],
+      "change": 2.23,
+      "change_percentage": 176.98,
+      "current_price": 3.49,
+      "name": "Organic Green Leaf Lettuce",
+      "previous_price": 1.26,
+      "product_key": "https://stopandshop.com/groceries/produce/fresh-vegetables/lettuce/green-leaf-lettuce/organic-green-leaf-lettuce-1-head.html",
+      "robust_z_score": 6.05
+    },
+    {
+      "brand": null,
+      "categories": [
+        "Lettuce"
+      ],
+      "change": 2.23,
+      "change_percentage": 176.98,
+      "current_price": 3.49,
+      "name": "Organic Green Leaf Lettuce",
+      "previous_price": 1.26,
+      "product_key": "https://stopandshop.com/groceries/produce/fresh-vegetables/lettuce/organic-green-leaf-lettuce-1-head.html",
+      "robust_z_score": 6.05
+    },
+    {
+      "brand": "Folgers",
+      "categories": [
+        "Dark Roast Ground Coffee"
+      ],
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
+      "name": "Folgers Gourmet Supreme Medium Dark Roast Ground Coffee",
+      "previous_price": 8.99,
+      "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/dark-roast-ground-coffee/folgers-gourmet-supreme-medium-dark-roast-ground-coffee-226-oz-can.html",
+      "robust_z_score": 4.12
+    },
+    {
+      "brand": "Folgers",
+      "categories": [
+        "Coffee"
+      ],
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
+      "name": "Folgers Gourmet Supreme Medium Dark Roast Ground Coffee",
+      "previous_price": 8.99,
+      "product_key": "https://stopandshop.com/groceries/beverages/coffee/folgers-gourmet-supreme-medium-dark-roast-ground-coffee-226-oz-can.html",
+      "robust_z_score": 4.12
+    },
+    {
+      "brand": "Folgers",
+      "categories": [
+        "Ground Coffee"
+      ],
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
+      "name": "Folgers 100% Colombian Medium Roast Ground Coffee",
+      "previous_price": 8.99,
+      "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/folgers-100-colombian-medium-roast-ground-coffee-226-oz-can.html",
+      "robust_z_score": 4.12
+    },
+    {
+      "brand": "Folgers",
+      "categories": [
+        "Medium Roast Ground Coffee"
+      ],
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
+      "name": "Folgers 100% Colombian Medium Roast Ground Coffee",
+      "previous_price": 8.99,
+      "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/medium-roast-ground-coffee/folgers-100-colombian-medium-roast-ground-coffee-226-oz-can.html",
+      "robust_z_score": 4.12
+    },
+    {
+      "brand": "Folgers",
+      "categories": [
+        "Coffee"
+      ],
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
+      "name": "Folgers Classic Roast Medium Roast Ground Coffee",
+      "previous_price": 8.99,
+      "product_key": "https://stopandshop.com/groceries/beverages/coffee/folgers-classic-roast-medium-roast-ground-coffee-259-oz-can.html",
+      "robust_z_score": 4.12
+    },
+    {
+      "brand": "Folgers",
+      "categories": [
+        "Ground Coffee"
+      ],
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
+      "name": "Folgers Classic Roast Medium Roast Ground Coffee",
+      "previous_price": 8.99,
+      "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/folgers-classic-roast-medium-roast-ground-coffee-259-oz-can.html",
+      "robust_z_score": 4.12
+    },
+    {
+      "brand": "Folgers",
+      "categories": [
+        "Medium Roast Ground Coffee"
+      ],
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
+      "name": "Folgers Classic Roast Medium Roast Ground Coffee",
+      "previous_price": 8.99,
+      "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/medium-roast-ground-coffee/folgers-classic-roast-medium-roast-ground-coffee-259-oz-can.html",
+      "robust_z_score": 4.12
+    },
+    {
+      "brand": "Folgers",
+      "categories": [
+        "Dark Roast Ground Coffee"
+      ],
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
+      "name": "Folgers Black Silk Dark Roast Ground Coffee",
+      "previous_price": 8.99,
+      "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/dark-roast-ground-coffee/folgers-black-silk-dark-roast-ground-coffee-226-oz-can.html",
+      "robust_z_score": 4.12
+    },
+    {
+      "brand": "Folgers",
+      "categories": [
+        "Coffee"
+      ],
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
+      "name": "Folgers 100% Colombian Medium Roast Ground Coffee",
+      "previous_price": 8.99,
+      "product_key": "https://stopandshop.com/groceries/beverages/coffee/folgers-100-colombian-medium-roast-ground-coffee-226-oz-can.html",
+      "robust_z_score": 4.12
+    },
+    {
+      "brand": "Folgers",
+      "categories": [
+        "Medium Roast Ground Coffee"
+      ],
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
+      "name": "Folgers Half Caff Medium Roast Ground Coffee",
+      "previous_price": 8.99,
+      "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/medium-roast-ground-coffee/folgers-half-caff-medium-roast-ground-coffee-226-oz-can.html",
+      "robust_z_score": 4.12
+    },
+    {
+      "brand": "Folgers",
+      "categories": [
+        "Ground Coffee"
+      ],
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
+      "name": "Folgers Gourmet Supreme Medium Dark Roast Ground Coffee",
+      "previous_price": 8.99,
+      "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/folgers-gourmet-supreme-medium-dark-roast-ground-coffee-226-oz-can.html",
+      "robust_z_score": 4.12
+    },
+    {
+      "brand": "Ahold",
+      "categories": [
+        "Pork Chops Cutlets"
+      ],
+      "change": 5.29,
+      "change_percentage": 115.5,
+      "current_price": 9.87,
+      "name": "Stop & Shop Center Cut Pork Chops Fresh",
+      "previous_price": 4.58,
+      "product_key": "https://stopandshop.com/groceries/meat/pork-ham/pork-chops-cutlets/stop-shop-center-cut-pork-chops-fresh-apx-23-lb.html",
+      "robust_z_score": 3.88
     }
   ],
   "brand_trends": [
     {
-      "average_change_percentage": 3.68,
-      "changed_products": 287,
-      "median_change_percentage": 7.17,
+      "average_change_percentage": 5.4,
+      "changed_products": 475,
+      "median_change_percentage": 7.72,
       "name": "Ahold"
     },
     {
-      "average_change_percentage": -16.95,
-      "changed_products": 104,
-      "median_change_percentage": -12.52,
+      "average_change_percentage": -12.91,
+      "changed_products": 114,
+      "median_change_percentage": -24.81,
+      "name": "Hostess"
+    },
+    {
+      "average_change_percentage": 18.36,
+      "changed_products": 110,
+      "median_change_percentage": 14.31,
       "name": "Jimmy Dean"
     },
     {
-      "average_change_percentage": 75.87,
-      "changed_products": 73,
-      "median_change_percentage": 83.0,
-      "name": "Breyers"
+      "average_change_percentage": 7.31,
+      "changed_products": 90,
+      "median_change_percentage": 14.0,
+      "name": "Haagen-Dazs"
     },
     {
-      "average_change_percentage": -12.35,
-      "changed_products": 57,
-      "median_change_percentage": -16.71,
+      "average_change_percentage": -7.68,
+      "changed_products": 90,
+      "median_change_percentage": -21.11,
+      "name": "Sargento"
+    },
+    {
+      "average_change_percentage": -0.48,
+      "changed_products": 81,
+      "median_change_percentage": -4.01,
+      "name": "Lysol"
+    },
+    {
+      "average_change_percentage": 18.76,
+      "changed_products": 80,
+      "median_change_percentage": 18.21,
+      "name": "Ben & Jerry's"
+    },
+    {
+      "average_change_percentage": -30.66,
+      "changed_products": 75,
+      "median_change_percentage": -37.11,
+      "name": "Chobani"
+    },
+    {
+      "average_change_percentage": 7.77,
+      "changed_products": 75,
+      "median_change_percentage": 30.04,
       "name": "Dole"
     },
     {
-      "average_change_percentage": 4.76,
-      "changed_products": 57,
-      "median_change_percentage": 9.11,
-      "name": "Downy"
-    },
-    {
-      "average_change_percentage": 16.07,
-      "changed_products": 54,
-      "median_change_percentage": 31.6,
+      "average_change_percentage": -8.42,
+      "changed_products": 70,
+      "median_change_percentage": -16.69,
       "name": "Eggo"
-    },
-    {
-      "average_change_percentage": -17.88,
-      "changed_products": 53,
-      "median_change_percentage": -18.41,
-      "name": "Stouffer's"
-    },
-    {
-      "average_change_percentage": -23.25,
-      "changed_products": 50,
-      "median_change_percentage": -22.25,
-      "name": "Gardein"
-    },
-    {
-      "average_change_percentage": 8.55,
-      "changed_products": 50,
-      "median_change_percentage": 6.67,
-      "name": "Pampers"
-    },
-    {
-      "average_change_percentage": 58.43,
-      "changed_products": 49,
-      "median_change_percentage": 59.0,
-      "name": "Chobani"
     }
   ],
   "category_trends": [
     {
-      "average_change_percentage": -17.22,
-      "changed_products": 44,
-      "median_change_percentage": -17.67,
-      "name": "Frozen Breakfast Sandwiches"
-    },
-    {
-      "average_change_percentage": -18.24,
-      "changed_products": 42,
-      "median_change_percentage": -17.67,
+      "average_change_percentage": 11.07,
+      "changed_products": 60,
+      "median_change_percentage": 14.31,
       "name": "Breakfast Meals Sandwiches"
     },
     {
-      "average_change_percentage": 39.07,
-      "changed_products": 36,
-      "median_change_percentage": 37.59,
-      "name": "Multi Serve Hummus"
+      "average_change_percentage": 15.45,
+      "changed_products": 60,
+      "median_change_percentage": 14.31,
+      "name": "Frozen Breakfast Sandwiches"
     },
     {
-      "average_change_percentage": 4.23,
-      "changed_products": 34,
-      "median_change_percentage": -10.01,
-      "name": "Frozen Breakfast"
+      "average_change_percentage": 8.31,
+      "changed_products": 48,
+      "median_change_percentage": 19.6,
+      "name": "Packaged Donuts Breakfast Pastries"
     },
     {
-      "average_change_percentage": 15.79,
-      "changed_products": 32,
-      "median_change_percentage": 31.6,
-      "name": "Frozen Waffles"
+      "average_change_percentage": 6.68,
+      "changed_products": 45,
+      "median_change_percentage": 30.04,
+      "name": "Frozen Smoothie Blends Bowls"
     },
     {
-      "average_change_percentage": 37.88,
-      "changed_products": 32,
-      "median_change_percentage": 37.59,
-      "name": "Hummus"
+      "average_change_percentage": -7.65,
+      "changed_products": 45,
+      "median_change_percentage": -22.45,
+      "name": "Ice Pops Fruit Bars"
     },
     {
-      "average_change_percentage": 38.26,
-      "changed_products": 32,
-      "median_change_percentage": 50.13,
-      "name": "Ice Cream Bars"
+      "average_change_percentage": -0.74,
+      "changed_products": 42,
+      "median_change_percentage": -10.79,
+      "name": "Dairy Free Ice Cream Frozen Desserts"
     },
     {
-      "average_change_percentage": 23.68,
-      "changed_products": 30,
-      "median_change_percentage": 26.52,
-      "name": "Ice Cream Frozen Treats Novelties"
+      "average_change_percentage": 9.35,
+      "changed_products": 40,
+      "median_change_percentage": 8.49,
+      "name": "Frozen Plant Based Chicken"
     },
     {
-      "average_change_percentage": -2.88,
-      "changed_products": 30,
-      "median_change_percentage": -33.37,
-      "name": "Ice Cream Sundae Cones"
+      "average_change_percentage": -20.62,
+      "changed_products": 39,
+      "median_change_percentage": -24.81,
+      "name": "Packaged Snack Cakes"
     },
     {
-      "average_change_percentage": -0.55,
-      "changed_products": 30,
-      "median_change_percentage": 9.11,
-      "name": "Liquid Fabric Softeners"
+      "average_change_percentage": 9.96,
+      "changed_products": 38,
+      "median_change_percentage": 12.36,
+      "name": "Trash Bags"
+    },
+    {
+      "average_change_percentage": 16.28,
+      "changed_products": 35,
+      "median_change_percentage": 16.69,
+      "name": "Ice Cream Frozen Treats"
     }
   ],
   "comparison": {
-    "anomalies": 4,
-    "availability_changes": 1988,
-    "average_price_change_percentage": 7.25,
-    "coverage_percentage": 99.77,
-    "from_date": "2026-07-09",
-    "matched_products": 42157,
-    "median_price_change_percentage": 9.11,
-    "new_products": 181,
-    "price_changes": 5018,
-    "price_decreases": 2210,
-    "price_increases": 2808,
-    "removed_products": 98,
-    "to_date": "2026-07-12",
-    "unchanged_prices": 37139
+    "anomalies": 23,
+    "availability_changes": 2476,
+    "average_price_change_percentage": 4.76,
+    "coverage_percentage": 98.32,
+    "from_date": "2026-07-12",
+    "matched_products": 41627,
+    "median_price_change_percentage": 6.0,
+    "new_products": 782,
+    "price_changes": 7982,
+    "price_decreases": 3821,
+    "price_increases": 4161,
+    "removed_products": 711,
+    "to_date": "2026-07-19",
+    "unchanged_prices": 33645
   },
   "comparisons": [
     {
@@ -209,11 +456,27 @@
       "removed_products": 98,
       "to_date": "2026-07-12",
       "unchanged_prices": 37139
+    },
+    {
+      "anomalies": 23,
+      "availability_changes": 2476,
+      "average_price_change_percentage": 4.76,
+      "coverage_percentage": 98.32,
+      "from_date": "2026-07-12",
+      "matched_products": 41627,
+      "median_price_change_percentage": 6.0,
+      "new_products": 782,
+      "price_changes": 7982,
+      "price_decreases": 3821,
+      "price_increases": 4161,
+      "removed_products": 711,
+      "to_date": "2026-07-19",
+      "unchanged_prices": 33645
     }
   ],
   "generated_from": [
-    "2026-07-09.catalog.jsonl.gz",
-    "2026-07-12.catalog.jsonl.gz"
+    "2026-07-12.catalog.jsonl.gz",
+    "2026-07-19.catalog.jsonl.gz"
   ],
   "history": [
     {
@@ -233,103 +496,438 @@
       "median_price": 5.49,
       "products": 42338,
       "snapshot_date": "2026-07-12"
+    },
+    {
+      "available_products": 35565,
+      "average_price": 6.98,
+      "brands": 2988,
+      "categories": 2499,
+      "median_price": 5.49,
+      "products": 42409,
+      "snapshot_date": "2026-07-19"
     }
   ],
   "largest_decreases": [
     {
-      "brand": "Folgers",
+      "brand": "Milk-Bone",
       "categories": [
-        "Ground Coffee"
+        "Dental Dog Treats"
       ],
-      "change": -11.0,
-      "change_percentage": -55.03,
-      "current_price": 8.99,
-      "name": "Folgers 100% Colombian Medium Roast Ground Coffee",
-      "previous_price": 19.99,
-      "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/folgers-100-colombian-medium-roast-ground-coffee-226-oz-can.html"
+      "change": -2.99,
+      "change_percentage": -74.94,
+      "current_price": 1.0,
+      "name": "Milk-Bone Mini's Red White & Woof Mixed Berry Biscuits Dog Treats",
+      "previous_price": 3.99,
+      "product_key": "https://stopandshop.com/groceries/pets/dog-treats-toys/dental-dog-treats/milk-bone-minis-red-white-woof-mixed-berry-biscuits-dog-treats-12-oz-bag.html"
     },
     {
-      "brand": "Folgers",
+      "brand": "Elmer's",
       "categories": [
-        "Ground Coffee"
+        "Craft Glue"
       ],
-      "change": -11.0,
-      "change_percentage": -55.03,
-      "current_price": 8.99,
-      "name": "Folgers Gourmet Supreme Medium Dark Roast Ground Coffee",
-      "previous_price": 19.99,
-      "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/folgers-gourmet-supreme-medium-dark-roast-ground-coffee-226-oz-can.html"
+      "change": -1.99,
+      "change_percentage": -66.56,
+      "current_price": 1.0,
+      "name": "Elmer's School Glue Washable",
+      "previous_price": 2.99,
+      "product_key": "https://stopandshop.com/groceries/home-office/school-office/school-supplies/craft-glue/elmers-school-glue-washable-4-oz-btl.html"
     },
     {
-      "brand": "Folgers",
+      "brand": "Elmer's",
       "categories": [
-        "Coffee"
+        "Craft Glue"
       ],
-      "change": -11.0,
-      "change_percentage": -55.03,
-      "current_price": 8.99,
-      "name": "Folgers Gourmet Supreme Medium Dark Roast Ground Coffee",
-      "previous_price": 19.99,
-      "product_key": "https://stopandshop.com/groceries/beverages/coffee/folgers-gourmet-supreme-medium-dark-roast-ground-coffee-226-oz-can.html"
+      "change": -1.99,
+      "change_percentage": -66.56,
+      "current_price": 1.0,
+      "name": "Elmer's School Glue Washable",
+      "previous_price": 2.99,
+      "product_key": "https://stopandshop.com/groceries/home-office/tools-hardware-auto/glue/craft-glue/elmers-school-glue-washable-4-oz-btl.html"
     },
     {
-      "brand": "Folgers",
+      "brand": "CareOne",
       "categories": [
-        "Coffee"
+        "Adult Allergy Sinus Medicine"
       ],
-      "change": -11.0,
-      "change_percentage": -55.03,
-      "current_price": 8.99,
-      "name": "Folgers 100% Colombian Medium Roast Ground Coffee",
-      "previous_price": 19.99,
-      "product_key": "https://stopandshop.com/groceries/beverages/coffee/folgers-100-colombian-medium-roast-ground-coffee-226-oz-can.html"
+      "change": -1.59,
+      "change_percentage": -61.39,
+      "current_price": 1.0,
+      "name": "CareOne Easy to Swallow Allergy Relief Gluten Free",
+      "previous_price": 2.59,
+      "product_key": "https://stopandshop.com/groceries/health-beauty/allergy-sinus/adult-allergy-sinus-medicine/careone-easy-to-swallow-allergy-relief-gluten-free-24-ct-pkg.html"
     },
     {
-      "brand": "Folgers",
+      "brand": "Dr. Scholl's",
       "categories": [
-        "Medium Roast Ground Coffee"
+        "Insoles Cushions"
       ],
-      "change": -11.0,
-      "change_percentage": -55.03,
-      "current_price": 8.99,
-      "name": "Folgers Half Caff Medium Roast Ground Coffee",
-      "previous_price": 19.99,
-      "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/medium-roast-ground-coffee/folgers-half-caff-medium-roast-ground-coffee-226-oz-can.html"
+      "change": -2.0,
+      "change_percentage": -60.79,
+      "current_price": 1.29,
+      "name": "Dr. Scholl's Insole Air Pillo Trim to Fit Men's 7-13/Women's 5-10",
+      "previous_price": 3.29,
+      "product_key": "https://stopandshop.com/groceries/health-beauty/foot-care/insoles-cushions/dr-scholls-insole-air-pillo-trim-to-fit-mens-7-13womens-5-10-1-pair.html"
+    },
+    {
+      "brand": "Hostess",
+      "categories": [
+        "Packaged Cakes Cupcakes"
+      ],
+      "change": -3.4,
+      "change_percentage": -59.75,
+      "current_price": 2.29,
+      "name": "Hostess Twinkies Red White & Blue Snack Cakes - 8 ct",
+      "previous_price": 5.69,
+      "product_key": "https://stopandshop.com/groceries/snacks/snack-cakes-sweet-treats/packaged-cakes-cupcakes/hostess-twinkies-red-white-blue-snack-cakes-8-ct-1086-oz-box.html"
+    },
+    {
+      "brand": "Hostess",
+      "categories": [
+        "Packaged Snack Cakes"
+      ],
+      "change": -3.4,
+      "change_percentage": -59.75,
+      "current_price": 2.29,
+      "name": "Hostess Patriotic Cupcakes - 8 ct",
+      "previous_price": 5.69,
+      "product_key": "https://stopandshop.com/groceries/snacks/snack-cakes-sweet-treats/packaged-snack-cakes/hostess-patriotic-cupcakes-8-ct-1157-oz-box.html"
+    },
+    {
+      "brand": "Hostess",
+      "categories": [
+        "Packaged Snack Cakes"
+      ],
+      "change": -3.4,
+      "change_percentage": -59.75,
+      "current_price": 2.29,
+      "name": "Hostess Patriotic Cupcakes - 8 ct",
+      "previous_price": 5.69,
+      "product_key": "https://stopandshop.com/groceries/bread-bakery/snack-cakes-sweet-treats/packaged-snack-cakes/hostess-patriotic-cupcakes-8-ct-1157-oz-box.html"
+    },
+    {
+      "brand": "Hostess",
+      "categories": [
+        "Packaged Snack Cakes"
+      ],
+      "change": -3.4,
+      "change_percentage": -59.75,
+      "current_price": 2.29,
+      "name": "Hostess Patriotic Cupcakes - 8 ct",
+      "previous_price": 5.69,
+      "product_key": "https://stopandshop.com/groceries/breakfast/breakfast-bread-pastries/packaged-snack-cakes/hostess-patriotic-cupcakes-8-ct-1157-oz-box.html"
+    },
+    {
+      "brand": "Hostess",
+      "categories": [
+        "Packaged Cakes Cupcakes"
+      ],
+      "change": -3.4,
+      "change_percentage": -59.75,
+      "current_price": 2.29,
+      "name": "Hostess Twinkies Red White & Blue Snack Cakes - 8 ct",
+      "previous_price": 5.69,
+      "product_key": "https://stopandshop.com/groceries/bread-bakery/snack-cakes-sweet-treats/packaged-cakes-cupcakes/hostess-twinkies-red-white-blue-snack-cakes-8-ct-1086-oz-box.html"
+    },
+    {
+      "brand": "Dr. Scholl's",
+      "categories": [
+        "Foot Creams Treatments"
+      ],
+      "change": -2.0,
+      "change_percentage": -59.0,
+      "current_price": 1.39,
+      "name": "Dr. Scholl's Ultra Hydrating Foot Mask",
+      "previous_price": 3.39,
+      "product_key": "https://stopandshop.com/groceries/health-beauty/foot-care/foot-creams-treatments/dr-scholls-ultra-hydrating-foot-mask-1-pair.html"
+    },
+    {
+      "brand": "Poland Spring",
+      "categories": [
+        "Water"
+      ],
+      "change": -1.3,
+      "change_percentage": -56.77,
+      "current_price": 0.99,
+      "name": "Poland Spring 100% Natural Spring Water",
+      "previous_price": 2.29,
+      "product_key": "https://stopandshop.com/groceries/beverages/water/poland-spring-100-natural-spring-water-3-ltr-btl.html"
+    },
+    {
+      "brand": "Poland Spring",
+      "categories": [
+        "Artesian Spring Water"
+      ],
+      "change": -1.3,
+      "change_percentage": -56.77,
+      "current_price": 0.99,
+      "name": "Poland Spring 100% Natural Spring Water",
+      "previous_price": 2.29,
+      "product_key": "https://stopandshop.com/groceries/beverages/water/artesian-spring-water/poland-spring-100-natural-spring-water-3-ltr-btl.html"
+    },
+    {
+      "brand": "Paper Mate",
+      "categories": [
+        "Pencils"
+      ],
+      "change": -2.49,
+      "change_percentage": -55.46,
+      "current_price": 2.0,
+      "name": "Paper Mate SharpWriter No. 2 Mechanical Pencils .75mm",
+      "previous_price": 4.49,
+      "product_key": "https://stopandshop.com/groceries/home-office/school-office/school-supplies/pencils/paper-mate-sharpwriter-no-2-mechanical-pencils-75mm-5-ct-pkg.html"
+    },
+    {
+      "brand": "Crest",
+      "categories": [
+        "Toothpaste"
+      ],
+      "change": -1.54,
+      "change_percentage": -55.2,
+      "current_price": 1.25,
+      "name": "Crest Fluoride Anticavity Protection Regular Toothpaste",
+      "previous_price": 2.79,
+      "product_key": "https://stopandshop.com/groceries/health-beauty/oral-care/toothpaste/crest-fluoride-anticavity-protection-regular-toothpaste-42-oz-box.html"
+    },
+    {
+      "brand": "Crest",
+      "categories": [
+        "Adult Toothpaste"
+      ],
+      "change": -1.54,
+      "change_percentage": -55.2,
+      "current_price": 1.25,
+      "name": "Crest Fluoride Anticavity Protection Regular Toothpaste",
+      "previous_price": 2.79,
+      "product_key": "https://stopandshop.com/groceries/health-beauty/oral-care/toothpaste/adult-toothpaste/crest-fluoride-anticavity-protection-regular-toothpaste-42-oz-box.html"
+    },
+    {
+      "brand": "USDA Meat",
+      "categories": [
+        "Beef Ribeye Steak"
+      ],
+      "change": -13.75,
+      "change_percentage": -55.02,
+      "current_price": 11.24,
+      "name": "Butcher Shop USDA Choice Bone-In Beef Ribeye Steak Vacuum Sealed Fresh",
+      "previous_price": 24.99,
+      "product_key": "https://stopandshop.com/groceries/meat/beef/beef-steaks/beef-ribeye-steak/butcher-shop-usda-choice-bone-in-beef-ribeye-steak-vacuum-sealed-fresh-apx-125-lb.html"
+    },
+    {
+      "brand": "USDA Meat",
+      "categories": [
+        "Beef"
+      ],
+      "change": -13.75,
+      "change_percentage": -55.02,
+      "current_price": 11.24,
+      "name": "Butcher Shop USDA Choice Bone-In Beef Ribeye Steak Vacuum Sealed Fresh",
+      "previous_price": 24.99,
+      "product_key": "https://stopandshop.com/groceries/meat/beef/butcher-shop-usda-choice-bone-in-beef-ribeye-steak-vacuum-sealed-fresh-apx-125-lb.html"
+    },
+    {
+      "brand": "USDA Meat",
+      "categories": [
+        "Beef Steaks"
+      ],
+      "change": -13.75,
+      "change_percentage": -55.02,
+      "current_price": 11.24,
+      "name": "Butcher Shop USDA Choice Bone-In Beef Ribeye Steak Vacuum Sealed Fresh",
+      "previous_price": 24.99,
+      "product_key": "https://stopandshop.com/groceries/meat/beef/beef-steaks/butcher-shop-usda-choice-bone-in-beef-ribeye-steak-vacuum-sealed-fresh-apx-125-lb.html"
+    },
+    {
+      "brand": "Chobani",
+      "categories": [
+        "Cherry Greek Yogurt"
+      ],
+      "change": -1.34,
+      "change_percentage": -51.74,
+      "current_price": 1.25,
+      "name": "Chobani 20g Protein Lowfat Cherry Berry Greek Yogurt Cup",
+      "previous_price": 2.59,
+      "product_key": "https://stopandshop.com/groceries/dairy-eggs/yogurt/greek-yogurt/cherry-greek-yogurt/chobani-20g-protein-lowfat-cherry-berry-greek-yogurt-cup-67-oz-cup.html"
+    }
+  ],
+  "largest_increases": [
+    {
+      "brand": "Buitoni",
+      "categories": [
+        "Fresh Fettuccine Pasta"
+      ],
+      "change": 1.99,
+      "change_percentage": 199.0,
+      "current_price": 2.99,
+      "name": "Buitoni Fettuccine Pasta Fresh",
+      "previous_price": 1.0,
+      "product_key": "https://stopandshop.com/groceries/deli-prepared-food/fresh-pasta-sauce-pierogies/fresh-refrigerated-pasta/fresh-fettuccine-pasta/buitoni-fettuccine-pasta-fresh-9-oz-pkg.html"
+    },
+    {
+      "brand": "Buitoni",
+      "categories": [
+        "Fresh Pasta Sauce Pierogies"
+      ],
+      "change": 1.99,
+      "change_percentage": 199.0,
+      "current_price": 2.99,
+      "name": "Buitoni Linguine Pasta Fresh",
+      "previous_price": 1.0,
+      "product_key": "https://stopandshop.com/groceries/deli-prepared-food/fresh-pasta-sauce-pierogies/buitoni-linguine-pasta-fresh-9-oz-pkg.html"
+    },
+    {
+      "brand": "Buitoni",
+      "categories": [
+        "Fresh Refrigerated Pasta"
+      ],
+      "change": 1.99,
+      "change_percentage": 199.0,
+      "current_price": 2.99,
+      "name": "Buitoni Fettuccine Pasta Fresh",
+      "previous_price": 1.0,
+      "product_key": "https://stopandshop.com/groceries/deli-prepared-food/fresh-pasta-sauce-pierogies/fresh-refrigerated-pasta/buitoni-fettuccine-pasta-fresh-9-oz-pkg.html"
+    },
+    {
+      "brand": "Buitoni",
+      "categories": [
+        "Fresh Refrigerated Pasta"
+      ],
+      "change": 1.99,
+      "change_percentage": 199.0,
+      "current_price": 2.99,
+      "name": "Buitoni Linguine Pasta Fresh",
+      "previous_price": 1.0,
+      "product_key": "https://stopandshop.com/groceries/deli-prepared-food/fresh-pasta-sauce-pierogies/fresh-refrigerated-pasta/buitoni-linguine-pasta-fresh-9-oz-pkg.html"
+    },
+    {
+      "brand": "Buitoni",
+      "categories": [
+        "More Fresh Pasta"
+      ],
+      "change": 1.99,
+      "change_percentage": 199.0,
+      "current_price": 2.99,
+      "name": "Buitoni Spaghetti Pasta Fresh",
+      "previous_price": 1.0,
+      "product_key": "https://stopandshop.com/groceries/deli-prepared-food/fresh-pasta-sauce-pierogies/fresh-refrigerated-pasta/more-fresh-pasta/buitoni-spaghetti-pasta-fresh-9-oz-pkg.html"
+    },
+    {
+      "brand": "Buitoni",
+      "categories": [
+        "Fresh Refrigerated Pasta"
+      ],
+      "change": 1.99,
+      "change_percentage": 199.0,
+      "current_price": 2.99,
+      "name": "Buitoni Spaghetti Pasta Fresh",
+      "previous_price": 1.0,
+      "product_key": "https://stopandshop.com/groceries/deli-prepared-food/fresh-pasta-sauce-pierogies/fresh-refrigerated-pasta/buitoni-spaghetti-pasta-fresh-9-oz-pkg.html"
+    },
+    {
+      "brand": "Buitoni",
+      "categories": [
+        "Fresh Pasta Sauce Pierogies"
+      ],
+      "change": 1.99,
+      "change_percentage": 199.0,
+      "current_price": 2.99,
+      "name": "Buitoni Spaghetti Pasta Fresh",
+      "previous_price": 1.0,
+      "product_key": "https://stopandshop.com/groceries/deli-prepared-food/fresh-pasta-sauce-pierogies/buitoni-spaghetti-pasta-fresh-9-oz-pkg.html"
+    },
+    {
+      "brand": "Buitoni",
+      "categories": [
+        "Fresh Linguine Pasta"
+      ],
+      "change": 1.99,
+      "change_percentage": 199.0,
+      "current_price": 2.99,
+      "name": "Buitoni Linguine Pasta Fresh",
+      "previous_price": 1.0,
+      "product_key": "https://stopandshop.com/groceries/deli-prepared-food/fresh-pasta-sauce-pierogies/fresh-refrigerated-pasta/fresh-linguine-pasta/buitoni-linguine-pasta-fresh-9-oz-pkg.html"
+    },
+    {
+      "brand": "Buitoni",
+      "categories": [
+        "Fresh Pasta Sauce Pierogies"
+      ],
+      "change": 1.99,
+      "change_percentage": 199.0,
+      "current_price": 2.99,
+      "name": "Buitoni Fettuccine Pasta Fresh",
+      "previous_price": 1.0,
+      "product_key": "https://stopandshop.com/groceries/deli-prepared-food/fresh-pasta-sauce-pierogies/buitoni-fettuccine-pasta-fresh-9-oz-pkg.html"
+    },
+    {
+      "brand": null,
+      "categories": [
+        "Green Leaf Lettuce"
+      ],
+      "change": 2.23,
+      "change_percentage": 176.98,
+      "current_price": 3.49,
+      "name": "Organic Green Leaf Lettuce",
+      "previous_price": 1.26,
+      "product_key": "https://stopandshop.com/groceries/produce/fresh-vegetables/lettuce/green-leaf-lettuce/organic-green-leaf-lettuce-1-head.html"
+    },
+    {
+      "brand": null,
+      "categories": [
+        "Lettuce"
+      ],
+      "change": 2.23,
+      "change_percentage": 176.98,
+      "current_price": 3.49,
+      "name": "Organic Green Leaf Lettuce",
+      "previous_price": 1.26,
+      "product_key": "https://stopandshop.com/groceries/produce/fresh-vegetables/lettuce/organic-green-leaf-lettuce-1-head.html"
     },
     {
       "brand": "Folgers",
       "categories": [
         "Dark Roast Ground Coffee"
       ],
-      "change": -11.0,
-      "change_percentage": -55.03,
-      "current_price": 8.99,
-      "name": "Folgers Black Silk Dark Roast Ground Coffee",
-      "previous_price": 19.99,
-      "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/dark-roast-ground-coffee/folgers-black-silk-dark-roast-ground-coffee-226-oz-can.html"
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
+      "name": "Folgers Gourmet Supreme Medium Dark Roast Ground Coffee",
+      "previous_price": 8.99,
+      "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/dark-roast-ground-coffee/folgers-gourmet-supreme-medium-dark-roast-ground-coffee-226-oz-can.html"
+    },
+    {
+      "brand": "Folgers",
+      "categories": [
+        "Coffee"
+      ],
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
+      "name": "Folgers Gourmet Supreme Medium Dark Roast Ground Coffee",
+      "previous_price": 8.99,
+      "product_key": "https://stopandshop.com/groceries/beverages/coffee/folgers-gourmet-supreme-medium-dark-roast-ground-coffee-226-oz-can.html"
     },
     {
       "brand": "Folgers",
       "categories": [
         "Ground Coffee"
       ],
-      "change": -11.0,
-      "change_percentage": -55.03,
-      "current_price": 8.99,
-      "name": "Folgers Classic Roast Medium Roast Ground Coffee",
-      "previous_price": 19.99,
-      "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/folgers-classic-roast-medium-roast-ground-coffee-259-oz-can.html"
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
+      "name": "Folgers 100% Colombian Medium Roast Ground Coffee",
+      "previous_price": 8.99,
+      "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/folgers-100-colombian-medium-roast-ground-coffee-226-oz-can.html"
     },
     {
       "brand": "Folgers",
       "categories": [
         "Medium Roast Ground Coffee"
       ],
-      "change": -11.0,
-      "change_percentage": -55.03,
-      "current_price": 8.99,
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
       "name": "Folgers 100% Colombian Medium Roast Ground Coffee",
-      "previous_price": 19.99,
+      "previous_price": 8.99,
       "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/medium-roast-ground-coffee/folgers-100-colombian-medium-roast-ground-coffee-226-oz-can.html"
     },
     {
@@ -337,23 +935,35 @@
       "categories": [
         "Coffee"
       ],
-      "change": -11.0,
-      "change_percentage": -55.03,
-      "current_price": 8.99,
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
       "name": "Folgers Classic Roast Medium Roast Ground Coffee",
-      "previous_price": 19.99,
+      "previous_price": 8.99,
       "product_key": "https://stopandshop.com/groceries/beverages/coffee/folgers-classic-roast-medium-roast-ground-coffee-259-oz-can.html"
+    },
+    {
+      "brand": "Folgers",
+      "categories": [
+        "Ground Coffee"
+      ],
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
+      "name": "Folgers Classic Roast Medium Roast Ground Coffee",
+      "previous_price": 8.99,
+      "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/folgers-classic-roast-medium-roast-ground-coffee-259-oz-can.html"
     },
     {
       "brand": "Folgers",
       "categories": [
         "Medium Roast Ground Coffee"
       ],
-      "change": -11.0,
-      "change_percentage": -55.03,
-      "current_price": 8.99,
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
       "name": "Folgers Classic Roast Medium Roast Ground Coffee",
-      "previous_price": 19.99,
+      "previous_price": 8.99,
       "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/medium-roast-ground-coffee/folgers-classic-roast-medium-roast-ground-coffee-259-oz-can.html"
     },
     {
@@ -361,377 +971,39 @@
       "categories": [
         "Dark Roast Ground Coffee"
       ],
-      "change": -11.0,
-      "change_percentage": -55.03,
-      "current_price": 8.99,
-      "name": "Folgers Gourmet Supreme Medium Dark Roast Ground Coffee",
-      "previous_price": 19.99,
-      "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/dark-roast-ground-coffee/folgers-gourmet-supreme-medium-dark-roast-ground-coffee-226-oz-can.html"
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
+      "name": "Folgers Black Silk Dark Roast Ground Coffee",
+      "previous_price": 8.99,
+      "product_key": "https://stopandshop.com/groceries/beverages/coffee/ground-coffee/dark-roast-ground-coffee/folgers-black-silk-dark-roast-ground-coffee-226-oz-can.html"
     },
     {
-      "brand": "Ahold",
+      "brand": "Folgers",
       "categories": [
-        "Pork Chops Cutlets"
+        "Coffee"
       ],
-      "change": -5.29,
-      "change_percentage": -53.6,
-      "current_price": 4.58,
-      "name": "Stop & Shop Center Cut Pork Chops Fresh",
-      "previous_price": 9.87,
-      "product_key": "https://stopandshop.com/groceries/meat/pork-ham/pork-chops-cutlets/stop-shop-center-cut-pork-chops-fresh-apx-23-lb.html"
-    },
-    {
-      "brand": "Funfetti",
-      "categories": [
-        "Frosting Icing"
-      ],
-      "change": -1.5,
-      "change_percentage": -50.17,
-      "current_price": 1.49,
-      "name": "Pillsbury Spring Funfetti Yellow Vanilla Frosting",
-      "previous_price": 2.99,
-      "product_key": "https://stopandshop.com/groceries/baking-cooking/frosting-cake-decorations/frosting-icing/pillsbury-spring-funfetti-yellow-vanilla-frosting-156-oz-can.html"
-    },
-    {
-      "brand": "Darrell Lea",
-      "categories": [
-        "Licorice"
-      ],
-      "change": -1.65,
-      "change_percentage": -50.15,
-      "current_price": 1.64,
-      "name": "Darrell Lea Mixed Fruit Flavored Soft Australian Licorice Candy",
-      "previous_price": 3.29,
-      "product_key": "https://stopandshop.com/groceries/candy-chocolate/gummy-chewy-candy/licorice/darrell-lea-mixed-fruit-flavored-soft-australian-licorice-candy-7-oz-pkg.html"
-    },
-    {
-      "brand": "Darrell Lea",
-      "categories": [
-        "Licorice"
-      ],
-      "change": -1.65,
-      "change_percentage": -50.15,
-      "current_price": 1.64,
-      "name": "Darrell Lea Original Black Flavored Soft Australian Licorice Candy",
-      "previous_price": 3.29,
-      "product_key": "https://stopandshop.com/groceries/candy-chocolate/gummy-chewy-candy/licorice/darrell-lea-original-black-flavored-soft-australian-licorice-candy-7-oz-bag.html"
-    },
-    {
-      "brand": "Darrell Lea",
-      "categories": [
-        "Licorice"
-      ],
-      "change": -1.65,
-      "change_percentage": -50.15,
-      "current_price": 1.64,
-      "name": "Darrell Lea Strawberry Flavored Soft Australian Licorice Candy",
-      "previous_price": 3.29,
-      "product_key": "https://stopandshop.com/groceries/candy-chocolate/gummy-chewy-candy/licorice/darrell-lea-strawberry-flavored-soft-australian-licorice-candy-7-oz-bag.html"
-    },
-    {
-      "brand": "Bertolli",
-      "categories": [
-        "Alfredo Pasta Sauce Shelf Stable"
-      ],
-      "change": -2.0,
-      "change_percentage": -50.13,
-      "current_price": 1.99,
-      "name": "Bertolli Garlic Alfredo Pasta Sauce",
-      "previous_price": 3.99,
-      "product_key": "https://stopandshop.com/groceries/rice-pasta-beans/pasta-sauce/alfredo-pasta-sauce-shelf-stable/bertolli-garlic-alfredo-pasta-sauce-15-oz-jar.html"
-    },
-    {
-      "brand": "Chocolove",
-      "categories": [
-        "Single Serve Premium Chocolate Candy"
-      ],
-      "change": -2.0,
-      "change_percentage": -50.13,
-      "current_price": 1.99,
-      "name": "Chocolove Gluten Free Toffee & Almonds Milk Chocolate Candy Bar 33% Cocoa",
-      "previous_price": 3.99,
-      "product_key": "https://stopandshop.com/groceries/candy-chocolate/premium-gifting-chocolate/single-serve-premium-chocolate-candy/chocolove-gluten-free-toffee-almonds-milk-chocolate-candy-bar-33-cocoa-32-oz-bar.html"
-    },
-    {
-      "brand": "Chocolove",
-      "categories": [
-        "Premium Gifting Chocolate"
-      ],
-      "change": -2.0,
-      "change_percentage": -50.13,
-      "current_price": 1.99,
-      "name": "Chocolove Gluten & Dairy Free Strong Dark Chocolate Candy Bar 70% Cocoa",
-      "previous_price": 3.99,
-      "product_key": "https://stopandshop.com/groceries/candy-chocolate/premium-gifting-chocolate/chocolove-gluten-dairy-free-strong-dark-chocolate-candy-bar-70-cocoa-32-oz-bar.html"
-    },
-    {
-      "brand": "Bertolli",
-      "categories": [
-        "Pasta Sauce"
-      ],
-      "change": -2.0,
-      "change_percentage": -50.13,
-      "current_price": 1.99,
-      "name": "Bertolli Alfredo Pasta Sauce",
-      "previous_price": 3.99,
-      "product_key": "https://stopandshop.com/groceries/rice-pasta-beans/pasta-sauce/bertolli-alfredo-pasta-sauce-15-oz-jar.html"
-    }
-  ],
-  "largest_increases": [
-    {
-      "brand": "McCormick",
-      "categories": [
-        "Finishing Sugar"
-      ],
-      "change": 3.74,
-      "change_percentage": 299.2,
-      "current_price": 4.99,
-      "name": "McCormick Flavor of the Year Sweet & Smoky Black Currant Seasoning",
-      "previous_price": 1.25,
-      "product_key": "https://stopandshop.com/groceries/baking-cooking/sugars-sweeteners/finishing-sugar/mccormick-flavor-of-the-year-sweet-smoky-black-currant-seasoning-3-oz-jar.html"
-    },
-    {
-      "brand": "McCormick",
-      "categories": [
-        "Finishing Sugar"
-      ],
-      "change": 3.74,
-      "change_percentage": 299.2,
-      "current_price": 4.99,
-      "name": "McCormick Flavor of the Year Black Currant Finishing Sugar",
-      "previous_price": 1.25,
-      "product_key": "https://stopandshop.com/groceries/baking-cooking/sugars-sweeteners/finishing-sugar/mccormick-flavor-of-the-year-black-currant-finishing-sugar-275-oz-jar.html"
-    },
-    {
-      "brand": "Fiber One",
-      "categories": [
-        "Breakfast Cereal Granola Bars"
-      ],
-      "change": 3.0,
-      "change_percentage": 150.75,
-      "current_price": 4.99,
-      "name": "Fiber One Chewy Bars Oats & Chocolate - 5 ct",
-      "previous_price": 1.99,
-      "product_key": "https://stopandshop.com/groceries/breakfast/breakfast-cereal-granola-bars/fiber-one-chewy-bars-oats-chocolate-5-ct-7-oz-box.html"
-    },
-    {
-      "brand": "Fiber One",
-      "categories": [
-        "Granola Snack Bars"
-      ],
-      "change": 3.0,
-      "change_percentage": 150.75,
-      "current_price": 4.99,
-      "name": "Fiber One Chewy Bars Oats & Chocolate - 5 ct",
-      "previous_price": 1.99,
-      "product_key": "https://stopandshop.com/groceries/snacks/granola-snack-bars/fiber-one-chewy-bars-oats-chocolate-5-ct-7-oz-box.html"
-    },
-    {
-      "brand": "Oscar Mayer",
-      "categories": [
-        "Meat"
-      ],
-      "change": 3.29,
-      "change_percentage": 109.67,
-      "current_price": 6.29,
-      "name": "Oscar Mayer Cheese Stuffed Dogs - 10 ct",
-      "previous_price": 3.0,
-      "product_key": "https://stopandshop.com/groceries/meat/oscar-mayer-cheese-stuffed-dogs-10-ct-16-oz-pkg.html"
-    },
-    {
-      "brand": "Oscar Mayer",
-      "categories": [
-        "Blended Meat Hot Dogs"
-      ],
-      "change": 3.29,
-      "change_percentage": 109.67,
-      "current_price": 6.29,
-      "name": "Oscar Mayer Cheese Stuffed Dogs - 10 ct",
-      "previous_price": 3.0,
-      "product_key": "https://stopandshop.com/groceries/meat/hot-dogs-sausages/hot-dogs-franks/blended-meat-hot-dogs/oscar-mayer-cheese-stuffed-dogs-10-ct-16-oz-pkg.html"
-    },
-    {
-      "brand": "Oscar Mayer",
-      "categories": [
-        "Hot Dogs Sausages"
-      ],
-      "change": 3.29,
-      "change_percentage": 109.67,
-      "current_price": 6.29,
-      "name": "Oscar Mayer Cheese Stuffed Dogs - 10 ct",
-      "previous_price": 3.0,
-      "product_key": "https://stopandshop.com/groceries/meat/hot-dogs-sausages/oscar-mayer-cheese-stuffed-dogs-10-ct-16-oz-pkg.html"
-    },
-    {
-      "brand": "7-UP",
-      "categories": [
-        "Diet Lemon Lime Soda"
-      ],
-      "change": 4.3,
-      "change_percentage": 107.77,
-      "current_price": 8.29,
-      "name": "7UP Zero Sugar Lemon Lime Soda Caffeine Free - 6 pk",
-      "previous_price": 3.99,
-      "product_key": "https://stopandshop.com/groceries/beverages/soft-drinks/lemon-lime-soda/diet-lemon-lime-soda/7up-zero-sugar-lemon-lime-soda-caffeine-free-6-pk-169-oz-btls.html"
-    },
-    {
-      "brand": "Top Flight",
-      "categories": [
-        "Notebooks"
-      ],
-      "change": 1.25,
-      "change_percentage": 100.81,
-      "current_price": 2.49,
-      "name": "Top Flight Memo Book Top Wire Assorted Colors 3 X 5 Inch - 100 Sheets",
-      "previous_price": 1.24,
-      "product_key": "https://stopandshop.com/groceries/home-office/school-office/school-supplies/notebooks/top-flight-memo-book-top-wire-assorted-colors-3-x-5-inch-100-sheets-1-ct-pkg.html"
-    },
-    {
-      "brand": null,
-      "categories": [
-        "Clams"
-      ],
-      "change": 1.88,
-      "change_percentage": 100.53,
-      "current_price": 3.75,
-      "name": "Littleneck Clams - apx 4-6 ct Fresh",
-      "previous_price": 1.87,
-      "product_key": "https://stopandshop.com/groceries/seafood/crab-lobster-shellfish/clams/littleneck-clams-apx-4-6-ct-fresh-apx-12-lb.html"
-    },
-    {
-      "brand": "Wonder",
-      "categories": [
-        "English Muffins"
-      ],
-      "change": 2.0,
-      "change_percentage": 100.5,
-      "current_price": 3.99,
-      "name": "Wonder Classic Pre-Sliced English Muffins - 6 ct",
-      "previous_price": 1.99,
-      "product_key": "https://stopandshop.com/groceries/bread-bakery/breakfast-breads-pastries/english-muffins/wonder-classic-pre-sliced-english-muffins-6-ct-12-oz-bag.html"
-    },
-    {
-      "brand": "Wonder",
-      "categories": [
-        "English Muffins"
-      ],
-      "change": 2.0,
-      "change_percentage": 100.5,
-      "current_price": 3.99,
-      "name": "Wonder Classic Pre-Sliced English Muffins - 6 ct",
-      "previous_price": 1.99,
-      "product_key": "https://stopandshop.com/groceries/breakfast/breakfast-bread-pastries/english-muffins/wonder-classic-pre-sliced-english-muffins-6-ct-12-oz-bag.html"
-    },
-    {
-      "brand": "Spice World",
-      "categories": [
-        "Dried Onion"
-      ],
-      "change": 2.5,
-      "change_percentage": 100.4,
-      "current_price": 4.99,
-      "name": "Spice World Easy Onion Chopped",
-      "previous_price": 2.49,
-      "product_key": "https://stopandshop.com/groceries/baking-cooking/spices-seasonings/spices/dried-onion/spice-world-easy-onion-chopped-16-oz-jar.html"
-    },
-    {
-      "brand": "Silverpoint",
-      "categories": [
-        "Notebooks"
-      ],
-      "change": 2.75,
-      "change_percentage": 100.36,
-      "current_price": 5.49,
-      "name": "Top Flight Silverpoint Planning Pad 8.5 X 11.75 Inch - 70 Sheets",
-      "previous_price": 2.74,
-      "product_key": "https://stopandshop.com/groceries/home-office/school-office/school-supplies/notebooks/top-flight-silverpoint-planning-pad-85-x-1175-inch-70-sheets-1-ct-pkg.html"
-    },
-    {
-      "brand": "Cholula",
-      "categories": [
-        "More Frozen Meals"
-      ],
-      "change": 2.9,
-      "change_percentage": 100.35,
-      "current_price": 5.79,
-      "name": "Cholula Chili Lime Pork Carnitas Burrito Bowl 16g Protein Frozen Meal",
-      "previous_price": 2.89,
-      "product_key": "https://stopandshop.com/groceries/frozen/frozen-dinners-meals/more-frozen-meals/cholula-chili-lime-pork-carnitas-burrito-bowl-16g-protein-frozen-meal-85-oz-box.html"
-    },
-    {
-      "brand": "Top Flight",
-      "categories": [
-        "Notepads"
-      ],
-      "change": 3.0,
-      "change_percentage": 100.33,
-      "current_price": 5.99,
-      "name": "Top Flight Multi-Color Scratch Pad 4 X 6 Inch - 165 Sheets",
-      "previous_price": 2.99,
-      "product_key": "https://stopandshop.com/groceries/home-office/school-office/office-supplies/notepads/top-flight-multi-color-scratch-pad-4-x-6-inch-165-sheets-1-ct-pkg.html"
-    },
-    {
-      "brand": "Smart Living",
-      "categories": [
-        "Notepads"
-      ],
-      "change": 3.25,
-      "change_percentage": 100.31,
-      "current_price": 6.49,
-      "name": "Smart Living Legal Pads Ruled White 8.5 X 11.8 Inch - 50 Sheets/Pad",
-      "previous_price": 3.24,
-      "product_key": "https://stopandshop.com/groceries/home-office/school-office/office-supplies/notepads/smart-living-legal-pads-ruled-white-85-x-118-inch-50-sheetspad-3-ct-pkg.html"
-    },
-    {
-      "brand": "Homebake 425/:30",
-      "categories": [
-        "Frozen Broccoli"
-      ],
-      "change": 3.5,
-      "change_percentage": 100.29,
-      "current_price": 6.99,
-      "name": "Homebake Cheesy Broccoli Frozen",
-      "previous_price": 3.49,
-      "product_key": "https://stopandshop.com/groceries/frozen/frozen-vegetables/frozen-broccoli/homebake-cheesy-broccoli-frozen-194-oz-pkg.html"
-    },
-    {
-      "brand": "Homebake 425/:30",
-      "categories": [
-        "More Types Of Frozen Potatoes"
-      ],
-      "change": 3.5,
-      "change_percentage": 100.29,
-      "current_price": 6.99,
-      "name": "Homebake Loaded Scalloped Potatoes Frozen",
-      "previous_price": 3.49,
-      "product_key": "https://stopandshop.com/groceries/frozen/frozen-potatoes/more-types-of-frozen-potatoes/homebake-loaded-scalloped-potatoes-frozen-198-oz-pkg.html"
-    },
-    {
-      "brand": "Homebake 425/:30",
-      "categories": [
-        "More Frozen Meals"
-      ],
-      "change": 3.5,
-      "change_percentage": 100.29,
-      "current_price": 6.99,
-      "name": "Homebake Italian Style Cauliflower Frozen",
-      "previous_price": 3.49,
-      "product_key": "https://stopandshop.com/groceries/frozen/frozen-dinners-meals/more-frozen-meals/homebake-italian-style-cauliflower-frozen-15-oz-pkg.html"
+      "change": 11.0,
+      "change_percentage": 122.36,
+      "current_price": 19.99,
+      "name": "Folgers 100% Colombian Medium Roast Ground Coffee",
+      "previous_price": 8.99,
+      "product_key": "https://stopandshop.com/groceries/beverages/coffee/folgers-100-colombian-medium-roast-ground-coffee-226-oz-can.html"
     }
   ],
   "latest": {
-    "available_products": 35535,
-    "average_price": 6.96,
-    "brands": 2994,
-    "categories": 2505,
+    "available_products": 35565,
+    "average_price": 6.98,
+    "brands": 2988,
+    "categories": 2499,
     "median_price": 5.49,
-    "products": 42338,
-    "snapshot_date": "2026-07-12"
+    "products": 42409,
+    "snapshot_date": "2026-07-19"
   },
   "latest_manifest": {
-    "catalog_products": 42338,
-    "category_sitemap_urls": 3152,
-    "elapsed_seconds": 3157.58,
+    "catalog_products": 42409,
+    "category_sitemap_urls": 3145,
+    "elapsed_seconds": 3150.62,
     "errors": [
       "https://stopandshop.com/savings/weekly-ad: Failed to fetch https://stopandshop.com/savings/weekly-ad: HTTP Error 403: Forbidden"
     ],
@@ -741,15 +1013,15 @@
       "note": "Local market reference only; public online prices are not asserted as shelf prices for this store.",
       "store_number": "2577"
     },
-    "observed_at": "2026-07-12T08:26:04.049011Z",
+    "observed_at": "2026-07-19T08:27:20.977370Z",
     "price_scope": "public_online_catalog",
-    "prior_overlap_percentage": 99.77,
-    "product_sitemap_urls": 32125,
+    "prior_overlap_percentage": 98.32,
+    "product_sitemap_urls": 32100,
     "promotions": 0,
-    "requests": 3157,
+    "requests": 3150,
     "schema_version": "1.0",
-    "sitemap_coverage_percentage": 71.02,
-    "snapshot_date": "2026-07-12",
+    "sitemap_coverage_percentage": 70.99,
+    "snapshot_date": "2026-07-19",
     "status": "healthy",
     "valid_price_percentage": 100.0
   },
@@ -804,6 +1076,31 @@
       "snapshot_date": "2026-07-12",
       "status": "healthy",
       "valid_price_percentage": 100.0
+    },
+    {
+      "catalog_products": 42409,
+      "category_sitemap_urls": 3145,
+      "elapsed_seconds": 3150.62,
+      "errors": [
+        "https://stopandshop.com/savings/weekly-ad: Failed to fetch https://stopandshop.com/savings/weekly-ad: HTTP Error 403: Forbidden"
+      ],
+      "market_reference": {
+        "address": "905 Atlantic Avenue, Baldwin, NY 11510",
+        "name": "Stop & Shop Baldwin",
+        "note": "Local market reference only; public online prices are not asserted as shelf prices for this store.",
+        "store_number": "2577"
+      },
+      "observed_at": "2026-07-19T08:27:20.977370Z",
+      "price_scope": "public_online_catalog",
+      "prior_overlap_percentage": 98.32,
+      "product_sitemap_urls": 32100,
+      "promotions": 0,
+      "requests": 3150,
+      "schema_version": "1.0",
+      "sitemap_coverage_percentage": 70.99,
+      "snapshot_date": "2026-07-19",
+      "status": "healthy",
+      "valid_price_percentage": 100.0
     }
   ],
   "methodology": {
@@ -813,13 +1110,13 @@
     "price_scope": "Public online catalog, not asserted as Baldwin shelf pricing"
   },
   "previous": {
-    "available_products": 35157,
-    "average_price": 6.93,
-    "brands": 2992,
-    "categories": 2497,
-    "median_price": 5.29,
-    "products": 42255,
-    "snapshot_date": "2026-07-09"
+    "available_products": 35535,
+    "average_price": 6.96,
+    "brands": 2994,
+    "categories": 2505,
+    "median_price": 5.49,
+    "products": 42338,
+    "snapshot_date": "2026-07-12"
   },
   "promotion_entries": [],
   "promotion_exits": [],
@@ -837,6 +1134,13 @@
       "promotions": 0,
       "promotions_with_regular_price": 0,
       "snapshot_date": "2026-07-12"
+    },
+    {
+      "average_discount_percentage": 0.0,
+      "median_discount_percentage": 0.0,
+      "promotions": 0,
+      "promotions_with_regular_price": 0,
+      "snapshot_date": "2026-07-19"
     }
   ],
   "schema_version": "1.0",
@@ -844,19 +1148,19 @@
   "top_brands": [
     {
       "name": "Ahold",
-      "products": 3610
+      "products": 3609
     },
     {
       "name": "Nature's Promise",
-      "products": 924
+      "products": 916
     },
     {
       "name": "CareOne",
-      "products": 672
+      "products": 674
     },
     {
       "name": "Smart Living",
-      "products": 482
+      "products": 486
     },
     {
       "name": "McCormick",
@@ -864,7 +1168,7 @@
     },
     {
       "name": "Boar's Head",
-      "products": 399
+      "products": 397
     },
     {
       "name": "Taste Of Inspirations",
@@ -872,31 +1176,31 @@
     },
     {
       "name": "Goya",
-      "products": 270
-    },
-    {
-      "name": "Gerber",
-      "products": 238
+      "products": 267
     },
     {
       "name": "Nature Made",
-      "products": 232
+      "products": 234
+    },
+    {
+      "name": "Gerber",
+      "products": 227
     },
     {
       "name": "Handi-Foil",
-      "products": 204
+      "products": 203
     },
     {
       "name": "Badia",
       "products": 198
     },
     {
-      "name": "Hostess",
-      "products": 198
-    },
-    {
       "name": "Dole",
       "products": 197
+    },
+    {
+      "name": "Hostess",
+      "products": 195
     },
     {
       "name": "Jimmy Dean",
@@ -961,7 +1265,7 @@
       "products": 92
     },
     {
-      "name": "Disposable Foil Pans",
+      "name": "Multipack Protein Bars",
       "products": 92
     }
   ],

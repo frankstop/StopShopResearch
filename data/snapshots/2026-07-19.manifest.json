@@ -1,0 +1,25 @@
+{
+  "catalog_products": 42409,
+  "category_sitemap_urls": 3145,
+  "elapsed_seconds": 3150.62,
+  "errors": [
+    "https://stopandshop.com/savings/weekly-ad: Failed to fetch https://stopandshop.com/savings/weekly-ad: HTTP Error 403: Forbidden"
+  ],
+  "market_reference": {
+    "address": "905 Atlantic Avenue, Baldwin, NY 11510",
+    "name": "Stop & Shop Baldwin",
+    "note": "Local market reference only; public online prices are not asserted as shelf prices for this store.",
+    "store_number": "2577"
+  },
+  "observed_at": "2026-07-19T08:27:20.977370Z",
+  "price_scope": "public_online_catalog",
+  "prior_overlap_percentage": 98.32,
+  "product_sitemap_urls": 32100,
+  "promotions": 0,
+  "requests": 3150,
+  "schema_version": "1.0",
+  "sitemap_coverage_percentage": 70.99,
+  "snapshot_date": "2026-07-19",
+  "status": "healthy",
+  "valid_price_percentage": 100.0
+}
